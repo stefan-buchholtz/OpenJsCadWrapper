@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B405C1C1AB3187100B270DA /* OpenJSCAD.org in Resources */ = {isa = PBXBuildFile; fileRef = 6B405C1B1AB3187000B270DA /* OpenJSCAD.org */; };
+		6BE7E4421AA8D2C100EAB216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE7E4411AA8D2C100EAB216 /* AppDelegate.swift */; };
+		6BE7E4441AA8D2C100EAB216 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE7E4431AA8D2C100EAB216 /* ViewController.swift */; };
+		6BE7E4461AA8D2C100EAB216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE7E4451AA8D2C100EAB216 /* Images.xcassets */; };
+		6BE7E4491AA8D2C100EAB216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE7E4471AA8D2C100EAB216 /* Main.storyboard */; };
+		6BE7E4551AA8D2C100EAB216 /* OpenJSCadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE7E4541AA8D2C100EAB216 /* OpenJSCadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BE7E44F1AA8D2C100EAB216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE7E4341AA8D2C000EAB216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE7E43B1AA8D2C000EAB216;
+			remoteInfo = OpenJSCad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B405C1B1AB3187000B270DA /* OpenJSCAD.org */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OpenJSCAD.org; sourceTree = "<group>"; };
+		6BE7E43C1AA8D2C100EAB216 /* OpenJSCad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenJSCad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE7E4401AA8D2C100EAB216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE7E4411AA8D2C100EAB216 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BE7E4431AA8D2C100EAB216 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BE7E4451AA8D2C100EAB216 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BE7E4481AA8D2C100EAB216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BE7E44E1AA8D2C100EAB216 /* OpenJSCadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenJSCadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE7E4531AA8D2C100EAB216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE7E4541AA8D2C100EAB216 /* OpenJSCadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenJSCadTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BE7E4391AA8D2C000EAB216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE7E44B1AA8D2C100EAB216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BE7E4331AA8D2C000EAB216 = {
+			isa = PBXGroup;
+			children = (
+				6BE7E43E1AA8D2C100EAB216 /* OpenJSCad */,
+				6BE7E4511AA8D2C100EAB216 /* OpenJSCadTests */,
+				6BE7E43D1AA8D2C100EAB216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE7E43D1AA8D2C100EAB216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE7E43C1AA8D2C100EAB216 /* OpenJSCad.app */,
+				6BE7E44E1AA8D2C100EAB216 /* OpenJSCadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE7E43E1AA8D2C100EAB216 /* OpenJSCad */ = {
+			isa = PBXGroup;
+			children = (
+				6BE7E4411AA8D2C100EAB216 /* AppDelegate.swift */,
+				6BE7E4431AA8D2C100EAB216 /* ViewController.swift */,
+				6BE7E4451AA8D2C100EAB216 /* Images.xcassets */,
+				6BE7E4471AA8D2C100EAB216 /* Main.storyboard */,
+				6BE7E43F1AA8D2C100EAB216 /* Supporting Files */,
+			);
+			path = OpenJSCad;
+			sourceTree = "<group>";
+		};
+		6BE7E43F1AA8D2C100EAB216 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BE7E4401AA8D2C100EAB216 /* Info.plist */,
+				6B405C1B1AB3187000B270DA /* OpenJSCAD.org */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BE7E4511AA8D2C100EAB216 /* OpenJSCadTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BE7E4541AA8D2C100EAB216 /* OpenJSCadTests.swift */,
+				6BE7E4521AA8D2C100EAB216 /* Supporting Files */,
+			);
+			path = OpenJSCadTests;
+			sourceTree = "<group>";
+		};
+		6BE7E4521AA8D2C100EAB216 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BE7E4531AA8D2C100EAB216 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BE7E43B1AA8D2C000EAB216 /* OpenJSCad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE7E4581AA8D2C100EAB216 /* Build configuration list for PBXNativeTarget "OpenJSCad" */;
+			buildPhases = (
+				6BE7E4381AA8D2C000EAB216 /* Sources */,
+				6BE7E4391AA8D2C000EAB216 /* Frameworks */,
+				6BE7E43A1AA8D2C000EAB216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenJSCad;
+			productName = OpenJSCad;
+			productReference = 6BE7E43C1AA8D2C100EAB216 /* OpenJSCad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BE7E44D1AA8D2C100EAB216 /* OpenJSCadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE7E45B1AA8D2C100EAB216 /* Build configuration list for PBXNativeTarget "OpenJSCadTests" */;
+			buildPhases = (
+				6BE7E44A1AA8D2C100EAB216 /* Sources */,
+				6BE7E44B1AA8D2C100EAB216 /* Frameworks */,
+				6BE7E44C1AA8D2C100EAB216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BE7E4501AA8D2C100EAB216 /* PBXTargetDependency */,
+			);
+			name = OpenJSCadTests;
+			productName = OpenJSCadTests;
+			productReference = 6BE7E44E1AA8D2C100EAB216 /* OpenJSCadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE7E4341AA8D2C000EAB216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Stefan Buchholtz";
+				TargetAttributes = {
+					6BE7E43B1AA8D2C000EAB216 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6BE7E44D1AA8D2C100EAB216 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6BE7E43B1AA8D2C000EAB216;
+					};
+				};
+			};
+			buildConfigurationList = 6BE7E4371AA8D2C000EAB216 /* Build configuration list for PBXProject "OpenJSCad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BE7E4331AA8D2C000EAB216;
+			productRefGroup = 6BE7E43D1AA8D2C100EAB216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE7E43B1AA8D2C000EAB216 /* OpenJSCad */,
+				6BE7E44D1AA8D2C100EAB216 /* OpenJSCadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BE7E43A1AA8D2C000EAB216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B405C1C1AB3187100B270DA /* OpenJSCAD.org in Resources */,
+				6BE7E4461AA8D2C100EAB216 /* Images.xcassets in Resources */,
+				6BE7E4491AA8D2C100EAB216 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE7E44C1AA8D2C100EAB216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BE7E4381AA8D2C000EAB216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE7E4441AA8D2C100EAB216 /* ViewController.swift in Sources */,
+				6BE7E4421AA8D2C100EAB216 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE7E44A1AA8D2C100EAB216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE7E4551AA8D2C100EAB216 /* OpenJSCadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BE7E4501AA8D2C100EAB216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BE7E43B1AA8D2C000EAB216 /* OpenJSCad */;
+			targetProxy = 6BE7E44F1AA8D2C100EAB216 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BE7E4471AA8D2C100EAB216 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE7E4481AA8D2C100EAB216 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BE7E4561AA8D2C100EAB216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BE7E4571AA8D2C100EAB216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6BE7E4591AA8D2C100EAB216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenJSCad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BE7E45A1AA8D2C100EAB216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenJSCad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BE7E45C1AA8D2C100EAB216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenJSCadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenJSCad.app/Contents/MacOS/OpenJSCad";
+			};
+			name = Debug;
+		};
+		6BE7E45D1AA8D2C100EAB216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenJSCadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenJSCad.app/Contents/MacOS/OpenJSCad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BE7E4371AA8D2C000EAB216 /* Build configuration list for PBXProject "OpenJSCad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE7E4561AA8D2C100EAB216 /* Debug */,
+				6BE7E4571AA8D2C100EAB216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE7E4581AA8D2C100EAB216 /* Build configuration list for PBXNativeTarget "OpenJSCad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE7E4591AA8D2C100EAB216 /* Debug */,
+				6BE7E45A1AA8D2C100EAB216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE7E45B1AA8D2C100EAB216 /* Build configuration list for PBXNativeTarget "OpenJSCadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE7E45C1AA8D2C100EAB216 /* Debug */,
+				6BE7E45D1AA8D2C100EAB216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BE7E4341AA8D2C000EAB216 /* Project object */;
+}
